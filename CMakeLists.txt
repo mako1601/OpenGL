@@ -5,6 +5,9 @@ project(${PROJECT_NAME})
 
 add_executable(${PROJECT_NAME}
 	src/main.cpp
+	src/ShaderProgram.h
+	src/ShaderProgram.cpp
+	src/stb_image.h
 )
 
 target_compile_features(${PROJECT_NAME} PUBLIC cxx_std_17)
